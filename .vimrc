@@ -2,7 +2,7 @@
 set number
 
 " Define plugins for vim-plug
-call plug#begin()
+call plug#begin('~/.vim/plugged')
 " Gruvbox theme plugin
 Plug 'morhetz/gruvbox'
 call plug#end()
