@@ -1,5 +1,5 @@
-# vim-rc
-Personal settings for vim
+# Neovim Configs
+Personal settings for Neovim
 
 ## Must install vim-plug for .vimrc to work
 https://github.com/junegunn/vim-plug
