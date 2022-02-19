@@ -5,10 +5,14 @@ set number relativenumber
 call plug#begin('~/.vim/plugged')
 " Gruvbox theme plugin
 Plug 'morhetz/gruvbox'
+" Fuzzy finder
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+" Project tree
 Plug 'preservim/nerdtree'
 Plug 'StanAngeloff/php.vim'
+" Split terminal
+Plug 'vimlab/split-term.vim'
 call plug#end()
 
 " Use gruvbox theme
