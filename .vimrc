@@ -1,5 +1,5 @@
-" Show line numbers
 set number relativenumber
+set ts=4 sw=4 sts=4 et
 
 " Define plugins for vim-plug
 call plug#begin('~/.vim/plugged')
